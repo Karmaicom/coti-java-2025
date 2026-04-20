@@ -1,6 +1,8 @@
 package entidades;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 /**
@@ -80,13 +82,13 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", cpf='" + cpf + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", dataHoraCadastro=" + dataHoraCadastro +
+        return "Dados do Cliente:: \n" +
+                "Id: " + id + "\n" +
+                "Nome: " + nome + "\n" +
+                "Email: " + email + "\n" +
+                "CPF: " + cpf + "\n" +
+                "Telefone: " + telefone + "\n" +
+                "Data e Hora do Cadastro: " + dataHoraCadastro +
                 '}';
     }
 }

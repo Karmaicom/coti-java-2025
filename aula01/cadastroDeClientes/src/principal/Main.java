@@ -2,6 +2,7 @@ package principal;
 
 import com.sun.security.jgss.GSSUtil;
 import entidades.Cliente;
+import repositorios.ClienteRepositorio;
 
 import java.time.LocalDateTime;
 import java.util.Scanner;
@@ -11,7 +12,7 @@ import java.util.UUID;
 public class Main {
 
     /**
-     * Método inicial da aplicação
+     * Metodo inicial da aplicação
      * @param args
      */
     public static void main(String[] args) {
@@ -56,6 +57,8 @@ public class Main {
         System.out.println("TELEFONE.....................: " + cliente.getTelefone());
         System.out.println("DATA HORA DO CADASTRO........: " + cliente.getDataHoraCadastro());
 
+        var repo = new ClienteRepositorio();
+        repo.exportar(cliente);
 
     }
 

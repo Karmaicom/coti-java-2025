@@ -1,0 +1,7 @@
+Dados do Cliente:: 
+Id: 70070d9c-4460-4807-ac40-e4d8287b0cc2
+Nome: Karmaicom Rocha
+Email: karmaicom@gmail.com
+CPF: 123.456.789-00
+Telefone: (21) 88472-0009
+Data e Hora do Cadastro: 2026-04-20T10:36:51.792611}
